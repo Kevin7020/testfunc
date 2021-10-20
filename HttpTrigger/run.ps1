@@ -12,7 +12,8 @@ if (-not $name) {
     $name = $Request.Body.Name
 }
 
-$body = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
+$body = "Hello Everybody!"
+# $body = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
 
 if ($name) {
     $body = "Hello, $name. This HTTP triggered function executed successfully."
